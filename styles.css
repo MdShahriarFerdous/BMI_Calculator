@@ -104,9 +104,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 425px) {
-	main {
-		padding: 80px 24px;
-	}
 	.form-div {
 		margin: auto;
 		width: 375px;
@@ -116,9 +113,6 @@ button:hover {
 	button,
 	.result-div {
 		width: 80%;
-		/* margin-top: 1.5rem;
-	border-radius: 8px;
-	font-family: "Ubuntu", sans-serif; */
 	}
 	.head-one {
 		font-size: 2rem;
@@ -129,46 +123,18 @@ button:hover {
 	}
 }
 @media only screen and (max-width: 393px) {
-	main {
-		padding: 80px 24px;
-	}
 	.form-div {
-		width: 320px;
+		width: 280px;
 	}
 	.head-one {
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 	}
 	.result-div {
 		padding-bottom: 3.8rem;
 	}
 }
-@media only screen and (max-width: 375px) {
-	main {
-		padding: 80px 24px;
-	}
-	.form-div {
-		width: 320px;
-	}
-	.head-one {
-		font-size: 1.2rem;
-	}
-}
 
-@media only screen and (max-width: 365px) {
-	main {
-		padding: 80px 24px;
-	}
-	.form-div {
-		width: 320px;
-	}
-	.head-one {
-		font-size: 1.4rem;
-	}
-}
 @media only screen and (max-width: 320px) {
-	.form-div {
-		width: 280px;
-	}
 	.head-one {
 		font-size: 1.2rem;
 	}
