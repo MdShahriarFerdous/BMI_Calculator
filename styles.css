@@ -1,0 +1,175 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #6d31b9;
+	/* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
+	font-family: "Montserrat", sans-serif;
+}
+
+main {
+	padding: 80px 120px;
+}
+
+.form-div {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+form {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	font-family: "Montserrat", sans-serif;
+	background-color: #ffffff;
+	background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	height: 430px;
+	align-items: center;
+	padding-top: 2rem;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+input,
+button {
+	width: 360px;
+	margin-top: 1.5rem;
+	border-radius: 8px;
+	font-family: "Ubuntu", sans-serif;
+}
+input[type="text" i] {
+	padding-left: 1rem;
+}
+::placeholder {
+	color: #463759;
+}
+input {
+	font-size: 0.875rem;
+	padding: 1.125rem 2.25rem;
+	border: 0.5px solid #d3c1ea;
+	background-color: #faf9fc;
+}
+input:focus {
+	outline: none;
+}
+button {
+	font-size: 1.125rem;
+	padding: 1rem 2rem;
+	background-color: #6d31b9;
+	border: none;
+	color: white;
+	font-weight: 500;
+	box-shadow: 0 15px 30px rgba(142, 56, 199, 0.15);
+	transition: background-color 0.15s;
+}
+button:hover {
+	background-color: #542197;
+}
+
+.head-one-div {
+	margin: 2rem auto;
+}
+.head-one {
+	color: white;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
+.result-div {
+	text-align: center;
+	margin-top: 40px;
+	padding: 1.375rem 1.5625rem;
+	height: 72px;
+	width: 360px;
+	background-color: #ff8552;
+	color: #0a0908;
+	font-weight: 500;
+	font-size: 1.25rem;
+	border-radius: 8px;
+	box-shadow: 0 10px 15px rgba(69, 27, 97, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+	.form-div {
+		margin: auto;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	main {
+		padding: 80px 24px;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	main {
+		padding: 80px 24px;
+	}
+	.form-div {
+		margin: auto;
+		width: 375px;
+	}
+
+	input,
+	button,
+	.result-div {
+		width: 80%;
+		/* margin-top: 1.5rem;
+	border-radius: 8px;
+	font-family: "Ubuntu", sans-serif; */
+	}
+	.head-one {
+		font-size: 2rem;
+	}
+
+	.result-div {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 393px) {
+	main {
+		padding: 80px 24px;
+	}
+	.form-div {
+		width: 320px;
+	}
+	.head-one {
+		font-size: 1.2rem;
+	}
+	.result-div {
+		padding-bottom: 3.8rem;
+	}
+}
+@media only screen and (max-width: 375px) {
+	main {
+		padding: 80px 24px;
+	}
+	.form-div {
+		width: 320px;
+	}
+	.head-one {
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (max-width: 365px) {
+	main {
+		padding: 80px 24px;
+	}
+	.form-div {
+		width: 320px;
+	}
+	.head-one {
+		font-size: 1.4rem;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.form-div {
+		width: 280px;
+	}
+	.head-one {
+		font-size: 1.2rem;
+	}
+}
