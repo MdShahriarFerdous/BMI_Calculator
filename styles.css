@@ -4,9 +4,7 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: #6d31b9;
-	background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-color: #222a5b;
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -42,6 +40,7 @@ button {
 }
 input[type="text" i] {
 	padding-left: 1rem;
+	font-weight: 500;
 }
 ::placeholder {
 	color: #463759;
@@ -53,7 +52,7 @@ input {
 	background-color: #faf9fc;
 }
 input:focus {
-	outline: none;
+	outline-color: #6d31b9;
 }
 button {
 	font-size: 1.125rem;
@@ -81,13 +80,13 @@ button:hover {
 	text-align: center;
 	margin-top: 40px;
 	padding: 1rem;
-	height: 80px;
+	min-height: 60px;
 	width: 360px;
 	background-color: #ff8552;
 	color: #0a0908;
 	font-weight: 500;
 	font-size: 1.2rem;
-	border-radius: 8px;
+	border-radius: 4px;
 	box-shadow: 0 10px 15px rgba(69, 27, 97, 0.1);
 }
 
