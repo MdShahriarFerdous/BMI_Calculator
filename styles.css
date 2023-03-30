@@ -5,7 +5,8 @@
 }
 body {
 	background-color: #6d31b9;
-	/* background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
+	background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -79,13 +80,13 @@ button:hover {
 .result-div {
 	text-align: center;
 	margin-top: 40px;
-	padding: 1.375rem 1.5625rem;
-	height: 72px;
+	padding: 1rem;
+	height: 80px;
 	width: 360px;
 	background-color: #ff8552;
 	color: #0a0908;
 	font-weight: 500;
-	font-size: 1.25rem;
+	font-size: 1.2rem;
 	border-radius: 8px;
 	box-shadow: 0 10px 15px rgba(69, 27, 97, 0.1);
 }
@@ -103,10 +104,10 @@ button:hover {
 	}
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 400px) {
 	.form-div {
 		margin: auto;
-		width: 375px;
+		width: 90%;
 	}
 
 	input,
@@ -114,8 +115,9 @@ button:hover {
 	.result-div {
 		width: 80%;
 	}
+
 	.head-one {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.result-div {
@@ -123,14 +125,8 @@ button:hover {
 	}
 }
 @media only screen and (max-width: 393px) {
-	.form-div {
-		width: 280px;
-	}
 	.head-one {
 		font-size: 1.4rem;
-	}
-	.result-div {
-		padding-bottom: 3.8rem;
 	}
 }
 

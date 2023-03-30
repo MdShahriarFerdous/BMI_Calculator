@@ -77,9 +77,31 @@
 						parseFloat(weightInput) /
 						parseFloat(heightInput * heightInput);
 
-					document.getElementsByClassName(
-						"result-div"
-					)[0].innerHTML = ` Your BMI is: ${userBMI.toFixed(3)} 🎉`;
+					if (userBMI <= 18.5) {
+						document.getElementsByClassName(
+							"result-div"
+						)[0].innerHTML = ` Your BMI is: ${userBMI.toFixed(
+							3
+						)} 😑 It is Underweight.`;
+					} else if (userBMI >= 18.5 && userBMI <= 24.9) {
+						document.getElementsByClassName(
+							"result-div"
+						)[0].innerHTML = ` Your BMI is: ${userBMI.toFixed(
+							3
+						)} 🎉 It is Normal.`;
+					} else if (userBMI >= 25 && userBMI <= 29.9) {
+						document.getElementsByClassName(
+							"result-div"
+						)[0].innerHTML = ` Your BMI is: ${userBMI.toFixed(
+							3
+						)} 🙄 It is Overweight.`;
+					} else {
+						document.getElementsByClassName(
+							"result-div"
+						)[0].innerHTML = ` Your BMI is: ${userBMI.toFixed(
+							3
+						)} 🤦‍♂️ It is Obesity.`;
+					}
 				}
 			}
 		</script>
